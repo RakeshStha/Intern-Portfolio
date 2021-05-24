@@ -1,0 +1,46 @@
+.intro-content {
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(178.48deg, #2A3C58 1.29%, rgba(255, 255, 255, 0) 262.13%), #C4C4C4;
+}
+
+.my-pic, .my-intro {
+    display: flex;
+    justify-content: center;
+}
+
+.my-pic {
+    align-items: center;
+}
+
+.my-pic img{
+    border: 2px darkgray;
+    border-radius: 50%;
+    width: 65%;
+}
+
+.intro {
+    position: relative;
+    padding: 70px 20px 20px 20px;
+}
+
+.intro, h1, h3, h4 {
+    margin: 10px 0px 10px 0px;
+    font-style: normal;
+    font-family: Roboto;
+}
+
+.intro h3 {  
+    font-weight: 540; 
+    font-size: 29px;
+    color: #021430;
+}
+
+.intro h1, h4 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #021430;
+}
+
+.designation {
+    color: #2A1C88;
+}
