@@ -1,11 +1,6 @@
 .skill-container {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(180deg, #2A3C58 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
-}
-
-.skill-content {
-    padding: 20px 50px 20px 50px;
+    padding: 60px 30px 60px 30px;
+    background: linear-gradient(178.48deg, #2A3C58 1.29%, rgba(255, 255, 255, 0) 262.13%), #C4C4C4;
 }
 
 .skills {
@@ -23,4 +18,17 @@
     text-align: center;
     color: #021430;
     font-size: 32px;
+}
+
+.images {
+    flex-wrap: wrap;
+}
+
+.images img {
+    height: 64px;
+    width: 64px;
+}
+
+.images img:hover{ 
+    transform: translateY(-3px) scale(1.1);
 }

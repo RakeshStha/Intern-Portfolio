@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .flex {
   display: flex;
 }
@@ -49,6 +50,10 @@
 
 .mt-10{
   margin-top: 15px;
+}
+
+.animate:hover{ 
+  transform: translateY(-3px) scale(1.1);
 }
 
 
