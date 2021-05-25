@@ -1,0 +1,40 @@
+.education-container {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #2A3C58 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+}
+
+.education-content {
+    padding: 20px 50px 20px 50px;
+}
+
+.date {
+    padding-top: 300px;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.space-around h1 {
+    color: #021430;
+    font-size: 23px;
+}
+
+.space-around h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.field {
+    font-size: 18px;
+    color: rgba(2, 20, 48, 0.65);
+}
+
+.clz {
+    font-size: 18px;
+    color: rgba(2, 20, 48, 0.4);
+}
+
