@@ -1,0 +1,17 @@
+.interest-container {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #2A3C58 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+}
+
+.interest-content {
+    padding: 20px 100px 20px 100px;
+}
+
+.interest {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #021430;
+    justify-content: space-around;
+}

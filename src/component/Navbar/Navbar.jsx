@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div >Education</div>
                     <div >Skills</div>
                     <div >Experiences</div>
-                    <div >Intrests</div>
+                    <div >Interests</div>
                 </div> 
             </nav>
         </div>
