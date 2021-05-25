@@ -1,0 +1,23 @@
+.experiences-container {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #2A3C58 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+}
+
+.experiences-content {
+    padding: 20px 100px 20px 100px;
+}
+
+.experiences-content ul {
+    padding-top: 10px;
+}
+
+.experiences-content ul li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #021430;
+    font-size: 23px;
+}
+
+

@@ -11,8 +11,16 @@
 .skills {
     flex-wrap: wrap;
     justify-content: space-around;
+    color: rgba(2, 20, 48, 0.65);
+}
+
+.skills h2 {
+    color: #021430;
+    font-size: 23px;
 }
 
 .skill-head {
     text-align: center;
+    color: #021430;
+    font-size: 32px;
 }

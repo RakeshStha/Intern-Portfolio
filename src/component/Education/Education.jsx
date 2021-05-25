@@ -7,7 +7,7 @@ const Education = () => {
             
             <div className="flex-col education-content">
                 <div className="flex-1 center">
-                    <h1>EDUCATION</h1>
+                    <h1 className="skill-head">EDUCATION</h1>
                 </div>
                 <div className="flex-1">
                     <div className="space-around">
