@@ -37,6 +37,9 @@ html {
 .flex-3 {
   flex: 3;
 }
+.flex-4 {
+  flex: 4;
+}
 
 
 .center{
