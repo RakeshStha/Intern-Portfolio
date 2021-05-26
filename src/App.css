@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .flex {
   display: flex;
@@ -34,6 +38,7 @@
   flex: 3;
 }
 
+
 .center{
   display: flex;
   justify-content: center;
@@ -55,6 +60,8 @@
 .animate:hover{ 
   transform: translateY(-3px) scale(1.1);
 }
+
+
 
 
 

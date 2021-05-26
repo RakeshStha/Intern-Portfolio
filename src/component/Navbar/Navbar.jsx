@@ -2,6 +2,8 @@ import React from 'react'
 import '../Navbar/navbar.css'
 import Spin from 'react-reveal/Spin';
 
+
+
 const Navbar = () => {
     // let button = document.querySelector(".hamburger");
     // let navlist = document.querySelector(".navlink");
@@ -13,7 +15,10 @@ const Navbar = () => {
     function showClick(){
         document.getElementById("navlink").classList.toggle("show");
     }
+   
+
     return (
+
             <nav className="navbar">
                 <div className="logos">
                     <div className="logo">
@@ -26,13 +31,14 @@ const Navbar = () => {
                     </div>
                 </div>          
                 <div className="flex-row navlink" id="navlink">
-                    <div >Home</div>
-                    <div >Education</div>
-                    <div >Skills</div>
-                    <div >Experiences</div>
-                    <div >Interests</div>
+                    <div className="animate" > <a href="#intro">Home</a></div>
+                    <div className="animate" > <a href="#education">Education</a></div>
+                    <div className="animate" > <a href="#skill">Skills</a></div>
+                    <div className="animate" > <a href="#experience">Experience</a></div>
+                    <div className="animate" > <a href="#interest">Interest</a></div>
                 </div> 
             </nav>
+           
 
     )
 }

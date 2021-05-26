@@ -8,6 +8,7 @@
     background: linear-gradient(90.19deg, #2A3C58 0.15%, rgba(255, 255, 255, 0) 99.84%), #2A3C58;
 }
 
+
 .logos {
     padding: 15px;
     display: flex;
@@ -28,7 +29,11 @@
 
 .navlink {
     padding: 0px 20px 35px 20px;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+}
+
+.navlink a {
+    text-decoration: none;
     font-size: 25px;
     font-weight: 700;
     color: white;
